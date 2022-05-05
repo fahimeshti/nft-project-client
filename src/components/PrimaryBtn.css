@@ -1,0 +1,22 @@
+.primarybtn {
+background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 10px 40px;
+border-radius: 0;
+transition: all 0.3s linear;
+cursor: pointer;
+}
+.primarybtn:hover {
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+@media screen and (max-width: 600px) {
+    .primarybtn {
+        min-width: 35vw;
+        padding: 10px 20px;
+        }
+
+}

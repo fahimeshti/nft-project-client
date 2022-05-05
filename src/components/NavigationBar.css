@@ -1,0 +1,159 @@
+.nav-bar {
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.nav-bar.colored {
+    background-color: white;
+    box-shadow: 0 2px 18px rgba(0,0,0,.04)!important;
+}
+.nav-bar .my-logo {
+    color: blueviolet !important;
+}
+.nav-bar.colored .my-logo {
+    color: black !important;
+}
+.nav-bar.colored .nav-icon-group a {
+    color: black !important;
+}
+.nav-bar.colored .nav-toggle-btn {
+    color: black !important;
+}
+.faIcon {
+    color: #fff !important;
+    font-size: 25px !important;
+    cursor: pointer;
+}
+.cart-icon-box {
+    position: relative;
+}
+.cart-amount {
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    padding: 1px 5px;
+    font-size: 12px;
+    background: blueviolet;
+    color: #fff;
+    border-radius: 0.7rem;
+}
+.nav-toggle-btn {
+    color: blueviolet !important;
+}
+.faIcon:hover {
+    color: #ccc !important;
+}
+.nav-icons {
+    width: 30px;
+    color: #fff;
+}
+.me-2 {
+    min-width: 40vw;
+    color: #fff !important;
+    border-radius: 1rem !important;
+    background-color: transparent !important;
+    border: 1px solid rgba(238, 238, 238, 0.637) !important;
+}
+.me-2:focus {
+    border: 2px solid blueviolet !important;
+}
+.my-toggle {
+    color: #ccc !important;
+    border: none !important;
+    outline: none;
+}
+.navLinks {
+    color: #fff !important;
+    font-weight: 600;
+    padding: 20px 12px !important;
+    line-height: 24px;
+    font-size: 17px;
+}
+.navLinks:hover {
+    color: #ccc !important;
+}
+.navLinks {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.navLinks .faIcon {
+    vertical-align: text-top;
+}
+.navLinks .leftCol span {
+    margin-left: 10px !important;
+}
+.faIconChev {
+    font-size: 14px;
+}
+.my-button {
+    margin: 20px 0;
+}
+.my-logo {
+    max-width: 40px;
+    color: #fff !important;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    line-height: 30px;
+    margin: 4px 0 0 10px;
+}
+.my-logo-img {
+    width: 100%;
+    max-width: 40px;
+    margin-right: 5px;
+}
+
+.side-nav-body {
+    background-color: blueviolet !important;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.8)
+      ),url(../resources/navBg.jpg) center;
+    background-size: cover;
+}
+.close-btn-nav {
+    color: #fff !important;
+}
+.nav-icon-group {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px !important;
+}
+.nav-icon-group a {
+    max-width: 35px;
+    margin-right: 45px;
+    color: blueviolet !important;
+    transition-duration: 0.2s !important;
+}
+.nav-icon-group a:hover {
+    color: #ccc !important;
+}
+
+.my-navgtn-icons {
+    font-size: 24px;
+    
+}
+@media screen and (max-width: 600px) {
+    .my-nav-form {
+        display: none !important;
+    }
+    .nav-icon-group {
+        width: auto !important;
+        margin-left: 0;
+    }
+    .my-navgtn-icons {
+        margin-right: 0;
+        font-size: 20px;
+    }
+    .nav-icon-group {
+        width: auto !important;
+        padding-left: 15px !important;
+    }
+    .nav-icon-group a {
+        margin-right: 25px;
+    }
+}

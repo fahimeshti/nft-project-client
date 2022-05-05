@@ -1,0 +1,22 @@
+
+.img-box {
+    max-width: 75px;
+    max-height: 55px;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+.img-box img {
+    width: 100%;
+}
+tbody {
+    vertical-align: middle !important;
+}
+.tool-tip {
+    font-weight: normal !important;
+    text-align: left !important;
+}
+.danger {
+    color: orangered !important;
+    font-weight: normal;
+}

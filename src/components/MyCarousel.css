@@ -1,0 +1,19 @@
+.carousel-item-padding {
+    padding-left: 20px;
+}
+.react-multi-carousel-list {
+    padding-left: 2vw;
+}
+@media screen and (min-width: 1440px) {
+    .react-multi-carousel-list {
+        padding-left: 6.2vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .carousel-item-padding {
+        padding-left: 50px;
+    }
+    .react-multi-carousel-list {
+        padding-left: 0;
+    }
+}

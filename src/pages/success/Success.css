@@ -1,0 +1,28 @@
+
+.success-container {
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(145, 81, 81, 0.26),
+        rgba(0, 0, 0, 0.8)
+      ),url(../../resources/ethbg2.jpg) center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.order-box {
+    min-width: 45vw;
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0 2px 18px rgba(0,0,0,.02)!important;
+}
+.order-box-header {
+    color: green;
+    border-bottom: 1px solid #ccc;
+}
+.order-box p {
+    font-size: 15px;
+    margin-top: 15px;
+}

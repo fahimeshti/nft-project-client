@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.creator-card {
+    min-width: 15rem;
+    max-width: 15rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 14px;
+    padding: 11px 0;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-family: "Poppins";
+}
+.creator-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.creator-img img {
+    width: 100%;
+}
+.cr-about {
+    padding: 5px;
+}
+.cr-about h6 {
+    font-size: 12px;
+    margin: 0;
+}
+.cr-about span {
+    font-size: 10px;
+}
+.my-icon {
+    color: teal;
+}
+.cr-about span span.my-icon {
+    margin-right: 5px;
+}
+.cr-about span span.curr {
+    font-size: 11px;
+    color: #ccc;
+}
+.ell-btn {
+    cursor: pointer;
+}
+.my-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media screen and (max-width: 480px) {
+    .creator-card {
+        min-width: 100%;
+        max-width: 100%;
+        justify-content: space-between;
+        padding: 11px;
+    }
+    
+}

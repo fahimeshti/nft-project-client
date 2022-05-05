@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    /* --redishOne: #fff5f9; */
+    /* --whitishOne: #f5f8fb; */
+    --mainBg: #f5f8fb;
+  }
+.dashboard-body {
+    background-color: var(--mainBg);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.dashboard-container {
+    padding: 30px;
+}
+.user-analytics {
+    background-color: #fff;
+    min-height: 55vh;
+    padding: 16px;
+    border: 0.0625rem solid rgba(46,54,80,.125);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 18px rgba(0,0,0,.02)!important;
+}
+.dashboard-bottom {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 0;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+.main-bg-wh {
+    background-color: #fff;
+    min-height: 35vh;
+    border: 0.0625rem solid rgba(46,54,80,.125);
+    border-radius: 0.5rem;
+    padding: 16px;
+    box-shadow: 0 2px 18px rgba(0,0,0,.02)!important;
+}
+.user-stat {
+    padding: 22px;
+}
+.dashboard-bottom h2 {
+    font-size: 22px;
+}
+.user-single {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+    padding: 3px;
+    font-size: 14px;
+    text-align: left;
+}
+.user-single img {
+    width: 35px;
+    border-radius: 50%;
+}
+.transection-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.t-heaader-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    padding-top: 10px;
+}
+.transection-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: left;
+}
+.transection-row span:first-child {
+    max-width: 80px;
+    overflow: hidden;
+}
+.transection-row.header {
+    font-weight: bold;
+}
+.transection-row .date {
+    font-weight: normal;
+    color: #bbb;
+    font-size: 12px;
+}
+.transection-row .status {
+    color: #222;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.transection-row .status.approved {
+    background-color: aquamarine;
+}
+.transection-row .status.pending {
+    background-color: rgba(30, 143, 255, 0.521);
+}
+.transection-row .status.canceled {
+    background-color: rgba(255, 0, 0, 0.466);
+}
+@media screen and (max-width: 480px) {
+    .dashboard-container {
+        padding: 20px;
+    }
+    .dashboard-bottom {
+        align-items: center;
+        padding-top: 5px;
+        padding-left: 19px;
+    }
+    .dashboard-bottom h2 {
+        font-size: 20px;
+    }
+    .user-stat {
+        margin-bottom: 20px;
+    }
+    .main-bg-wh {
+        min-height: 15vh;
+        padding: 17px;
+    }
+    
+}

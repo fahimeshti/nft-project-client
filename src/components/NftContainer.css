@@ -1,0 +1,110 @@
+
+.main-nft-container {
+    max-width: 12rem;
+    margin-bottom: 16px;
+    background-color: #050b0e;
+    color: #fff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.main-nft-container .nft-image {
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    cursor: pointer;
+}
+.main-nft-container .nft-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.close-btn-nav .btn-close {
+    background-color: #aaa !important;
+    border-radius: 50%;
+}
+.nft-details {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 6px 12px;
+}
+.details-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+}
+.details-left.cart {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.details-left .creator {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.details-left .currency {
+    color: burlywood;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 2px;
+}
+.details-left h6 {
+    margin: 0;
+}
+.faIcon2 {
+    font-size: 18px;
+    cursor: pointer;
+}
+.main-nft-btn {
+    width: 88%;
+}
+.main-nft-btn button {
+    width: 100%;
+    padding: 6px 15px;
+    text-align: center;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 0.7rem;
+    color: #fff;
+    transition: all 0.3s;
+}
+.dis-none {
+    display: none;
+}
+.main-nft-btn button:hover {
+    background-color: transparent;
+}
+.main-nft-container:hover .dis-none {
+    display: block;
+}
+.details-right span {
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+    cursor: pointer !important;
+}
+.details-right span img {
+    width: 100%;
+}
+.my-popover-body {
+    padding: 7px !important;
+}
+
+@media screen and (max-width: 480px) {
+.main-nft-container {
+    max-width: 100%;
+    min-width: 90%;
+}
+}

@@ -1,0 +1,69 @@
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+td {
+    text-align: center;
+}
+.order-container {
+    background: #f5f8fb;
+    min-height: 100vh;
+}
+.table-box {
+    padding: 20px;
+}
+.quantity-row {
+    text-align: center;
+}
+.status-row {
+    text-transform: capitalize;
+}
+.card-header {
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0;
+    background-color: rgba(46,54,80,.03);
+    border-bottom: .0625rem solid rgba(46,54,80,.125);
+}
+.card-header:first-child {
+    border-radius: .4375rem .4375rem 0 0;
+}
+.card .card-header {
+    background: transparent;
+}
+.table .thead-light th {
+    background-color: #f5f8fb;
+    color: #262b40;
+}
+.table th {
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.table-flush tbody tr:last-child td, .table-flush tbody tr:last-child th {
+    border-bottom: 0;
+    /* padding-bottom: 0; */
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+.my-table tr:hover {
+    background: rgba(206, 206, 206, 0.5);
+}
+.action-row {
+    
+}
+.action-row button {
+    max-width: 23px;
+    padding: 0 !important;
+    background: transparent;
+    border: none;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.action-row button img {
+    width: 100%;
+}

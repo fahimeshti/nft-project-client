@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.add-new-box {
+    background: #f5f8fb;
+    min-height: 100vh;
+    padding: 19px;
+}
+.border-light {
+    border-color: #eaedf2!important;
+}
+.admin-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.imgUpload {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.img-container {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.imgUpload .imgSrc {
+    border-radius: 0.5rem !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.imgUpload .imgSrc img {
+    max-width: 150px;
+    border-radius: 0.5rem !important;
+}
+.imgUpload .imgSrc.user img {
+    max-width: 80px;
+}
+
+.imgUpload .imgInput {
+    max-width: 450px;
+    padding-left: 50px !important;
+}
+
+@media screen and (max-width: 480px) {
+    .imgUpload {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+    }
+    .imgInput {
+        margin-top: 15px;
+    }
+    
+}

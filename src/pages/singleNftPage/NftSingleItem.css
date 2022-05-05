@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    /* transition: all 0.3s linear; */
+}
+.main-container {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.info-item-container {
+    padding-top: 15px;
+}
+/* Card */
+.my_smol_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 0;
+    max-width: 14.5rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    margin: 10px;
+}
+.my_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 0;
+    max-width: 14.5rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    padding: 0 !important;
+    margin: 10px;
+}
+.my_card.long {
+    max-width: 100%;
+    margin: 17px 0;
+}
+.my-card-header {
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-start;
+    text-align: left !important;
+    font-size: 16px !important;
+}
+.my-card-header .artist-desc {
+    font-size: 14px !important;
+    margin-left: 5px;
+}
+.my-card-body {
+    padding: 20px;
+    border-top: 1px solid rgb(229, 232, 235);
+    color: rgb(53, 56, 64);
+    background-color: rgb(251, 253, 255);
+    height: initial;
+    max-height: 200px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    overflow: auto;
+}
+.my-card-body.long {
+    max-height: initial;
+}
+.my-card-body.make-numb {
+    border-radius: 0 0 10px 10px;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.cb {
+    display: inline;
+    color: rgb(138, 147, 155);
+}
+.author {
+    color: dodgerblue;
+}
+.top-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(112, 122, 131) !important;
+}
+.left-container {
+    padding-left: 17px;
+}
+.left-container .my_icon {
+    color: rgb(112, 122, 131) !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+.my__icon {
+    font-size: 14px !important;
+    cursor: pointer;
+}
+.left-container .my__icon:hover {
+    color: red !important;
+}
+.tech-block {
+    position: relative;
+    max-width: 25px;
+}
+.tech-block img {
+    width: 12px;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px;
+}
+/* RIGHT  */
+.right-container {
+    padding-right: 19px;
+    padding-top: 20px;
+}
+.right-container h1 {
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.item-credit {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(112, 122, 131);
+}
+.trade-main {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    background-color: rgb(251, 253, 255);
+    padding: 20px;
+}
+.trade-price-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.trade-price-detail img {
+    max-width: 16px !important;
+}
+.trade-price-detail span {
+    margin-left: 10px;
+}
+.trade-price-detail span:first-child {
+    margin-left: 0;
+}
+.trade-price-detail span:nth-child(2) {
+    font-size: 30px;
+    color: #353840;
+    font-weight: bold;
+}
+.trade-price-detail span:nth-child(3) {
+    font-size: 15px;
+    color: #707A83;
+}
+.ash-color {
+    color: #707A83 !important;
+}
+.fzwDgL {
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: rgb(32, 129, 226);
+    border: 1px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+    margin: 25px 0;
+}
+
+
+.main-body {
+    /* margin-top: -71px; */
+}
+.cover-img {
+    position: relative;
+    width: 100%;
+    height: 47vh;
+    background-size: cover;
+    object-fit: cover;
+}
+.cover-img img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.cr-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cr-image-on-page {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    bottom: -50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 3px;
+}
+.cr-image-on-page img {
+    width: 100%;
+    border-radius: 50%;
+}
+.body-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 70px;
+}
+.heading-box {
+    width: 55%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+}
+.body-container h1 {
+    text-align: center;
+}
+.verified_Badge {
+    display: inline;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.verified_Badge img {
+    width: 20px;
+}
+.info-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.info-item-box:first-child {
+    border-radius: 1rem 0 0 1rem;
+}
+.info-item-box:last-child {
+    border-radius: 0 1rem 1rem 0;
+    border-right: 1px solid rgb(229, 232, 235);
+}
+.info-item-box {
+    background-color: #fff;
+    padding: 22px 35px;
+    min-width: 9rem;
+    max-width: 9rem;
+    min-height: 6rem;
+    max-height: 6rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins";
+    color: rgb(112, 122, 131);
+    border: 1px solid rgb(229, 232, 235);
+    border-right: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.info-item-box:hover {
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+.info-item-box span {
+    font-weight: bold;
+    color: rgb(4, 17, 29);
+    font-size: 24px;
+}
+.info-item-box span img {
+    width: 14px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s linear;
+    padding-bottom: 50px;
+}
+.description p {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 16px;
+    font-family: "poppins";
+    color: rgb(112, 122, 131);
+    margin: 0 !important;
+    word-break: break-word;
+    -webkit-mask: linear-gradient(rgb(255, 255, 255) 25%, transparent);
+}
+.description p.text-expand {
+    -webkit-mask: none;
+}
+.see-more-btn {
+    background-color: transparent;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    color: rgb(112, 122, 131);
+    margin: 0;
+    margin-top: -32px;
+    z-index: 5;
+}
+.see-more-btn:hover {
+    background-color: rgba(138, 147, 155, 0.06);
+}
+.info-item-btn-group {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 28px;
+    margin-bottom: -29px;
+    z-index: 99;
+}
+.info-item-container-small {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.info-item-box-sm:first-child {
+    border-radius: 0.7rem 0 0 0.7rem;
+}
+.info-item-box-sm:last-child {
+    border-radius: 0 0.7rem 0.7rem 0;
+    border-right: 1px solid rgb(229, 232, 235);
+}
+.info-item-box-sm {
+    background-color: #fff;
+    padding: 22px 35px;
+    min-width: 3rem;
+    max-width: 4rem;
+    min-height: 3rem;
+    max-height: 4rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins";
+    color: rgb(112, 122, 131) !important;
+    border: 1px solid rgb(229, 232, 235);
+    border-right: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.info-item-box-sm:hover {
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+.info-item-box-sm span {
+    font-size: 20px;
+}
+.info-item-box .see-more-icon {
+    font-size: 20px;
+    margin-right: 2px;
+}
+.tool-tip {
+    font-family: "poppins";
+    font-weight: bold;
+}
+.add-to-wallet {
+    max-width: fit-content;
+    background: transparent;
+    color: #fff !important;
+    border: none;
+    font-size: 18px;
+    font-family: "poppins";
+    background: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px 16px;
+    margin-top: 7px;
+}
+.add-to-wallet:hover {
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+.my_smol_card.report-box {
+    max-width: 6rem;
+    max-height: fit-content;
+}
+.report-box {
+    position: absolute;
+    bottom: -58px;
+    right: 15px;
+    border-radius: 1rem;
+    font-size: 18px !important;
+}
+.report-box button {
+    background: transparent;
+    color: rgba(4, 17, 29, 0.75);
+    border: none;
+    margin: 0 !important;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 1rem;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+.report-box button:hover {
+    background: rgb(231, 231, 231);
+}
+
+@media screen and (max-width: 680px) {
+    .body-container {
+        padding-top: 110px;
+    }
+    .add-to-wallet {
+        top: 50px;
+        left: 15px;
+    }
+    .info-item-container-small {
+        top: 45px;
+        right: 15px;
+    }
+    .report-box {
+        top: 38px;
+        right: 16px;
+    }
+    .info-item-box:first-child {
+        border-radius: 1rem 0 0 0;
+        border-bottom: none;
+    }
+    .info-item-box:nth-child(2) {
+        border-radius: 0 1rem 0 0;
+        border-bottom: none;
+        border-right: 1px solid rgb(229, 232, 235);
+    }
+    .info-item-box:nth-child(3) {
+        border-radius: 0 0 0 1rem;
+    }
+    .info-item-box:last-child {
+        border-radius: 0 0 1rem 0;
+    }
+    .info-item-btn-group {
+        margin-bottom: 0 !important;
+    }
+    .info-item-box-sm {
+        max-width: 3rem;
+        max-height: 3rem;
+        
+    }
+    .info-item-btn-group .see-more-icon {
+        font-size: 16px !important;
+    }
+    .my_smol_card {
+        max-width: 100%;
+    }
+    .my_card {
+        max-width: 100%;
+    }
+    .right-container {
+        padding: 15px !important;
+    }
+    .item-credit {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .left-container {
+        padding-left: 0;
+        width: 100%;
+    }
+    .right-container {
+        padding-right: 0;
+    }
+    .my-card-header .artist-desc {
+        font-size: 18px !important;
+    }
+}
