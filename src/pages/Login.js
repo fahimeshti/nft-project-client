@@ -22,21 +22,21 @@ const Login = () => {
                 <form className={classes.form}>
                     <input 
                         type="text" 
-                        placeholder="username" 
+                        placeholder="username...test: fahimesti" 
                         onChange={(e) => setUsername(e.target.value)} 
                     />
                     <input 
                         type="password" 
-                        placeholder="password" 
+                        placeholder="password...test: 2323" 
                         onChange={(e) => setPassword(e.target.value)}
                      />
                     <button onClick={handleClick} disabled={isFetching}>LOG IN</button>
                     {error && <span className={classes.error}>Something went wrong!</span> }
                     <span>
-                        <a href="www.google.com">DO NOT REMEMBER THE PASSWORD?</a> 
+                        <a href="#">DO NOT REMEMBER THE PASSWORD?</a> 
                     </span>
                     <span>
-                        <a href="www.google.com">CREATE A NEW ACCOUNT</a> 
+                        <a href="#">CREATE A NEW ACCOUNT</a> 
                     </span>
                     <span>
                         <Link to="/">BACK TO HOMEPAGE</Link> 
