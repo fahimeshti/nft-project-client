@@ -21,8 +21,8 @@ const Products = () => {
             try {
               const res = await axios.get(
                   filters === 'all categories' 
-              ? "https://shopnft.herokuapp.com/api/products" 
-              : `https://shopnft.herokuapp.com/api/products?category=${filters}`) 
+              ? "https://nft-api-esti.onrender.com/api/products" 
+              : `https://nft-api-esti.onrender.com/api/products?category=${filters}`) 
               setProducts(res.data);
             } catch (err) {}
         }
